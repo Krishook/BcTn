@@ -6,6 +6,25 @@
         <title>My Web Sites</title>
         <link rel="icon" type="image/x-icon" href="https://krishook.github.io/BcTn/images/falco.ico">
        	<link rel="stylesheet" href="https://krishook.github.io/BcTn/style.css">
+    
+    <script>
+        function demanderMotDePasse() {
+            const motDePasse = "monmotdepasse";
+            const saisie = prompt("Entrez le mot de passe pour accéder au site :");
+            if (saisie !== motDePasse) {
+                alert("Mot de passe incorrect !");
+                window.location.href = "https://www.google.com"; // Redirection si le mot de passe est incorrect
+            }
+        }
+    </script>
+        
+</head>
+<body onload="demanderMotDePasse()">
+    <h1>Bienvenue sur la page protégée</h1>
+    <p>Vous avez accédé à cette page en entrant le bon mot de passe.</p>
+</body>
+</html>
+    
     </head>
 
 <body>
