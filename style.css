@@ -2,6 +2,35 @@
 
 body  {
 	background-color: white;
+	text-align: center;
+
+	/* Menu Top Navigation: https://www.w3schools.com/howto/howto_js_topnav.asp */
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: scroll;
+  background-color: lightgrey;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
 }
 
 
@@ -59,6 +88,17 @@ th    {
 }
 
 
+/* Changement de couleur de la ligne au passage de la souris */
+tr:hover {
+	background-color: orange;
+}
+
+/*
+tr:nth-child(odd) {
+	background-color: #dddddd;
+}
+*/
+
 tr    {
 	border: 1px solid #A9A9A9;
 	text-align: left;
@@ -69,15 +109,12 @@ tr    {
 td    {
 	border: 1px solid #A9A9A9;
 	text-align: left;
-	padding: 5px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 		
-tr:nth-child(odd) {
-	background-color: #dddddd;
-}
-
-
 img   {
   	border: 1px solid #A9A9A9;
  	border-radius: 4px;
@@ -89,6 +126,6 @@ img   {
 
 a:link {color:grey;}
 a:visited {color:grey;}
-a:hover {color:orange;}
+a:hover {color:white;}
 a:active {color:grey;}
 
