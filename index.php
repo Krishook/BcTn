@@ -11,6 +11,18 @@
 
 <body>
 
+<?php
+$motDePasse = "monmotdepasse";
+if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
+    echo '<form method="POST">
+             <label>Mot de passe : </label>
+             <input type="password" name="password">
+             <button type="submit">Valider</button>
+          </form>';
+    exit;
+}
+?>
+    
 <center>
 
 <!-- Nenu Top Navigation : https://www.w3schools.com/howto/howto_js_topnav.asp -->
