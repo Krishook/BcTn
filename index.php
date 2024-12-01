@@ -12,6 +12,7 @@
 <!--  https://krishook.github.io/BcTn/  -->
 
 <?php
+<p>
 $motDePasse = "Itcb6971";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '<form method="POST">
