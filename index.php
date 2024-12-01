@@ -12,7 +12,7 @@
 <!--  https://krishook.github.io/BcTn/  -->
 
 
-<?php
+<!--<?php
 <p>
 $motDePasse = "Itcb6971";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
@@ -24,7 +24,7 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     exit;
 }
 ?>
-
+-->
 
 <script>
         function demanderMotDePasse() {
