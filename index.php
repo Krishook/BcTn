@@ -7,7 +7,7 @@
         <link rel="icon" type="image/x-icon" href="https://krishook.github.io/BcTn/images/falco.ico">
        	<link rel="stylesheet" href="https://krishook.github.io/BcTn/style.css">
     
-    <script>
+    <!--<script>
         function demanderMotDePasse() {
             const motDePasse = "******";
             const saisie = prompt("Entrez le mot de passe pour accéder au site :");
@@ -16,7 +16,7 @@
                 window.location.href = "https://www.google.com"; // Redirection si le mot de passe est incorrect
             }
         }
-    </script>
+    </script>-->
     
     </head>
 
