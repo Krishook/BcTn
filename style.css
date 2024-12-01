@@ -7,6 +7,13 @@ body  {
 	/* Menu Top Navigation: https://www.w3schools.com/howto/howto_js_topnav.asp */
   margin: 10;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
 }
 
 /* Mot de passe*/
