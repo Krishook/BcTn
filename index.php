@@ -11,6 +11,10 @@
 
 <!--  https://krishook.github.io/BcTn/  -->
 
+<?php
+// Exemple d'un code minimal fonctionnel
+echo "Bonjour, le serveur fonctionne correctement !";
+?>
 
 <!--<?php
 <p>
