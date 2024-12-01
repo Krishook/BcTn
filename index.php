@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8">
         <title>My Web Sites</title>
-        <link rel="icon" type="image/x-icon" href="https://krishook.github.io/BcTn/images/falco.ico">
-       	<link rel="stylesheet" href="https://krishook.github.io/BcTn/style.css">
+        <link rel="icon" type="image/x-icon" href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/images/falco.ico">
+       	<link rel="stylesheet" href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/style.css">
     
     </head>
 
@@ -27,15 +27,15 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
 
 <!-- Nenu Top Navigation : https://www.w3schools.com/howto/howto_js_topnav.asp -->
 <div class="topnav">
-  <a class="active" href="https://krishook.github.io/BcTn/index.html">Home</a>
-  <a href="https://krishook.github.io/BcTn/Useful-links/index.html">Useful Links</a>
-  <a href="https://krishook.github.io/BcTn/00.OpenClassroom/index.html">OpenClassroom</a>
-  <a href="https://krishook.github.io/BcTn/01.Oiseaux/index.html">Oiseaux</a>
-  <a href="https://krishook.github.io/BcTn/02.HarryPotter/index.html">Harry Potter</a>
-  <a href="https://krishook.github.io/BcTn/03.Le%20Trone%20de%20Fer/index.html">Le Trône de Fer</a>
-  <a href="https://krishook.github.io/BcTn/05.WWII/index.html">WWII</a>
-  <a href="https://krishook.github.io/BcTn/06.JavaScript/index.html">JavaScript</a>
-  <a href="https://krishook.github.io/BcTn/07.Pleine Conscience/index.html">Pleine Conscience</a>
+  <a class="active" href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/index.html">Home</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/Useful-links/index.html">Useful Links</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/00.OpenClassroom/index.html">OpenClassroom</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/01.Oiseaux/index.html">Oiseaux</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/02.HarryPotter/index.html">Harry Potter</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/03.Le%20Trone%20de%20Fer/index.html">Le Trône de Fer</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/05.WWII/index.html">WWII</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/06.JavaScript/index.html">JavaScript</a>
+  <a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/07.Pleine Conscience/index.html">Pleine Conscience</a>
   <a href="...">...</a>
 </div>
 
@@ -46,35 +46,35 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
 
   <!-- id="COL1" : permet de fixer la largeur des col via le format défini dans le fichier CSS -->
   <tr id="COL1">
-    <td><a href="https://krishook.github.io/BcTn/Useful-links/index.html">Useful-links</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/Useful-links/index.html">Useful-links</a></td>
   </tr>
 
   <tr>
-    <td><a href="https://krishook.github.io/BcTn/00.OpenClassroom/index.html">00.OpenClassroom</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/00.OpenClassroom/index.html">00.OpenClassroom</a></td>
   </tr>
 
   <tr>
-    <td><a href="https://krishook.github.io/BcTn/01.Oiseaux/index.html">01.Oiseaux</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/01.Oiseaux/index.html">01.Oiseaux</a></td>
   </tr>
 
   <tr>
-    <td><a href="https://krishook.github.io/BcTn/02.HarryPotter/index.html">02.HarryPotter</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/02.HarryPotter/index.html">02.HarryPotter</a></td>
   </tr>
 
   <tr>
-    <td><a href="https://krishook.github.io/BcTn/03.Le%20Trone%20de%20Fer/index.html">03.Le Trône de Fer</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/03.Le%20Trone%20de%20Fer/index.html">03.Le Trône de Fer</a></td>
   </tr>
   
   <tr>
-    <td><a href="https://krishook.github.io/BcTn/05.WWII/index.html">05.WWII</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/05.WWII/index.html">05.WWII</a></td>
   </tr>
 
   <tr>
-    <td><a href="https://krishook.github.io/BcTn/06.JavaScript/index.html">06.JavaScript</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/06.JavaScript/index.html">06.JavaScript</a></td>
   </tr>
   
   <tr>
-    <td><a href="https://krishook.github.io/BcTn/07.Pleine Conscience/index.html">07.Pleine Conscience</a></td>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/07.Pleine Conscience/index.html">07.Pleine Conscience</a></td>
   </tr>
 
 </table>
