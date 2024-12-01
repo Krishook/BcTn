@@ -1,0 +1,114 @@
+/* commentaire CSS */
+
+body  {
+	background-color: black;
+	text-align:center;
+	/* Menu Top Navigation: https://www.w3schools.com/howto/howto_js_topnav.asp */
+	margin: 10;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+	overflow: scroll;
+	background-color: lightgrey;
+  }
+  
+  .topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #AD8A56;
+	color: white;
+  }
+  
+  .topnav a.active {
+	background-color:#AD8A56;
+	color: white;
+  }
+
+
+/* Bouton: https://www.w3schools.com/css/css3_buttons.asp 
+
+.button {
+	border: none;
+	color: white;
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: #AD8A56; 
+	border: 1px solid #AD8A56;
+	border-radius: 8px;
+	font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .button:hover {
+	background-color: #AD8A56;
+	color: white;
+  }
+*/
+
+.my-class-001 {
+	/* format d'image specifique pour le logo en haut de la page*/
+	width: 20%;
+	height: auto;
+}
+
+
+h1    {	
+	color: #000000;
+	font-family: courier, monospace;
+}
+
+
+p     {
+	color: #AD8A56;
+	font-family: courier, monospace;
+}
+
+
+table {
+	font-family: courier, monospace;
+	border-collapse: collapse;
+	width: 45%;
+}
+
+		
+th    {
+	border: 1px solid #AD8A56;
+	text-align: left;
+	padding: 5px;
+}
+
+
+td    {
+	border: 1px solid #AD8A56;
+	text-align: left;
+	padding: 5px;
+}
+
+
+img   {
+  	border: 1px solid black;
+ 	border-radius: 4px;
+	padding: 5px;
+ 	width: auto;
+ 	height: 75px;
+}
+
+
+a:link 	{color:#AD8A56;}
+a:visited {color:#AD8A56;}
+a:hover {color:white;}
+
