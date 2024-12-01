@@ -3,10 +3,39 @@
 body  {
 	background-color: black;
 	text-align:center;
+
+	/* Menu Top Navigation: https://www.w3schools.com/howto/howto_js_topnav.asp */
+	margin: 10;
+	font-family: Arial, Helvetica, sans-serif;  
 }
 
 
-/* Bouton: https://www.w3schools.com/css/css3_buttons.asp */
+.topnav {
+	overflow: scroll;
+	background-color: lightgrey;
+  }
+  
+  .topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px 18px;
+	text-decoration: none;
+	font-size: 12px;
+  }
+  
+  .topnav a:hover {
+	background-color: orange;
+	color: white;
+  }
+  
+  .topnav a.active {
+	background-color: orange;
+	color: white;
+  }
+  
+
+/* Bouton: https://www.w3schools.com/css/css3_buttons.asp
 
 .button {
 	padding: 8px 20px;
@@ -29,6 +58,7 @@ body  {
 	color: white;
   }
 
+*/
 
 .my-class-001 {
 	/* format d'image specifique pour le logo en haut de la page*/
@@ -89,4 +119,3 @@ img   {
 a:link 	{color:#A9A9A9;}
 a:visited {color:#A9A9A9;}
 a:hover {color:orange;}
-
