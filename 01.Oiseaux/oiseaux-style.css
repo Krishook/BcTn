@@ -1,0 +1,116 @@
+/* commentaire CSS */
+
+body  {
+	background-color: white;
+	text-align: center;
+
+	/* Menu Top Navigation: https://www.w3schools.com/howto/howto_js_topnav.asp */
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: scroll;
+  background-color: lightgrey;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+
+
+/* Bouton: https://www.w3schools.com/css/css3_buttons.asp
+
+.button {
+	border: none;
+	color: white;
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: #A9A9A9; 
+	border: 1px solid #A9A9A9;
+	border-radius: 8px;
+	font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .button:hover {
+	background-color: green;
+	color: white;
+  }
+*/
+
+h1    {
+	color: grey;
+	font-family: arial, sans-serif;
+}
+
+
+p     {
+	color: grey;
+	font-family: arial, sans-serif;
+}
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: auto;
+	color: grey;
+}
+
+		
+th    {
+	border: 1px solid #A9A9A9;
+	text-align: left;
+	padding: 5px;
+	width: auto;
+}
+
+
+td    {
+	border: 1px solid #A9A9A9;
+	text-align: left;
+	padding: 5px;
+	width: auto;
+}
+
+		
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+
+img   {
+  	border: 1px solid #000;
+ 	border-radius: 4px;
+	padding: 5px;
+ 	width: 128px;
+ 	height: auto;
+}
+
+a:link {color:grey;}
+a:visited {color:grey;}
+a:hover {color:green;}
+a:active {color:grey;}
+
