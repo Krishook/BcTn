@@ -11,6 +11,16 @@
 
 <body>
 
+<!-- Mot de passe -->
+        <div class="login-container">
+            <h2>Authentification requise</h2>
+            <form method="POST">
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+                <button type="submit">Valider</button>
+            </form>
+        </div>
+    
         <?php
         $motDePasse = "Itcb6971";
         if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
