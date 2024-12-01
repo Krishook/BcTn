@@ -7,25 +7,12 @@
         <link rel="icon" type="image/x-icon" href="https://krishook.github.io/BcTn/images/falco.ico">
        	<link rel="stylesheet" href="https://krishook.github.io/BcTn/style.css">
     
-    <!--<script>
-        function demanderMotDePasse() {
-            const motDePasse = "******";
-            const saisie = prompt("Entrez le mot de passe pour accéder au site :");
-            if (saisie !== motDePasse) {
-                alert("Mot de passe incorrect !");
-                window.location.href = "https://www.google.com"; // Redirection si le mot de passe est incorrect
-            }
-        }
-    </script>-->
-    
     </head>
-
-<body onload="demanderMotDePasse()">
 
 <!--  https://krishook.github.io/BcTn/  -->
 
 <?php
-$motDePasse = "monmotdepasse";
+$motDePasse = "Itcb6971";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '<form method="POST">
              <label>Mot de passe : </label>
