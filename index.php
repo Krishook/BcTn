@@ -9,20 +9,7 @@
     
     </head>
 
-<!--  https://krishook.github.io/BcTn/  -->
-
-<!--<script>
-        function demanderMotDePasse() {
-            const motDePasse = "******";
-            const saisie = prompt("Entrez le mot de passe pour accéder au site :");
-            if (saisie !== motDePasse) {
-                alert("Mot de passe incorrect !");
-                window.location.href = "https://www.google.com"; // Redirection si le mot de passe est incorrect
-            }
-        }
-</script>-->
-
-<body> <!--onload="demanderMotDePasse()"-->
+<body>
     
 <center>
 
