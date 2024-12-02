@@ -78,35 +78,35 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
 <table>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/info.php" target="_blank">info.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/info.php" target="_blank">info.php</a></td>
     </tr>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/file00.php" target="_blank">file00.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/file00.php" target="_blank">file00.php</a></td>
     </tr>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/file01.php" target="_blank">file01.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/file01.php" target="_blank">file01.php</a></td>
     </tr>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/file02.php" target="_blank">file02.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/file02.php" target="_blank">file02.php</a></td>
     </tr>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/file03.php" target="_blank">file03.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/file03.php" target="_blank">file03.php</a></td>
     </tr>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/file04.php" target="_blank">file04.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/file04.php" target="_blank">file04.php</a></td>
     </tr>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/file05.php" target="_blank">file05.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/file05.php" target="_blank">file05.php</a></td>
     </tr>
 
     <tr>
-      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/file06.php" target="_blank">file06.php</a></td>
+      <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/file06.php" target="_blank">file06.php</a></td>
     </tr>
 
   </table>
