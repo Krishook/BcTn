@@ -73,6 +73,18 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     exit;
 }
 ?>
+
+<!-- Bouton de retour à la page d'accueil -->
+
+<button class="button button" onclick="goBack()">Home</button>
+
+<script>
+function goBack() {
+        window.location.href = 'https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/index.html'; // Remplacez par l'URL de votre choix
+        }
+</script>
+
+    
 <h1>PHP</h1>
 
 <table>
