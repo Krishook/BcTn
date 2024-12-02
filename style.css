@@ -64,7 +64,7 @@ table {
 	font-family: Arial, Helvetica, sans-serif, sans-serif;
 	color:grey;
 	border-collapse: collapse;
-	width: 45%;
+	width: 50%;
 }
 
 
@@ -84,7 +84,7 @@ th    {
 	border: 1px solid #A9A9A9;
 	text-align: left;
 	padding: 5px;
-	background-color: tan;
+	/* background-color: tan; */
 	color:white;
 }
 
