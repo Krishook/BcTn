@@ -77,6 +77,10 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
   <tr>
     <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/07.Pleine Conscience/index.html">07.Pleine Conscience</a></td>
   </tr>
+    
+  <tr>
+    <td><a href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/08.PHP/index.php">PHP</a></td>
+  </tr>
 
 </table>
 
