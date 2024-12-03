@@ -4,7 +4,7 @@
 
 <body>
 <?php
-$motDePasse = "Itcb6971";
+$motDePasse = "Poi-987";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '
     <html lang="fr">
