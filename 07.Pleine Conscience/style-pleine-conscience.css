@@ -1,0 +1,93 @@
+/* commentaire CSS */
+
+body  {
+	background-color: white;
+	text-align: center;
+}
+
+
+/* Bouton: https://www.w3schools.com/css/css3_buttons.asp */
+
+.button {
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: grey;
+	border: 1px solid grey;
+	border-radius: 8px;
+	font-family:Arial, Helvetica, sans-serif;
+  }
+
+  
+.button:hover {
+	background-color: tan;
+	color: white;
+  }
+
+
+h1    {	
+	color: black;
+	font-family: arial, sans-serif;
+}
+
+
+p     {
+	color: #A9A9A9;
+	font-family: arial, sans-serif;
+}
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: auto;
+}
+
+		
+th    {
+	border: 1px solid #A9A9A9;
+	text-align: left;
+	padding: 8px;
+}
+
+/* Changement de couleur de la ligne au passage de la souris */
+tr:hover {
+	background-color: tan;
+}
+
+/*
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+*/
+
+
+td    {
+	border: 1px solid #A9A9A9;
+	text-align: left;
+	padding: 8px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+/*
+img   {
+  	border: 1px solid #000;
+ 	border-radius: 4px;
+	padding: 5px;
+ 	width: 128px;
+ 	height: auto;
+}
+*/
+
+a:link {color:grey;}
+a:visited {color:grey;}
+a:hover {color:white;}
+a:active {color:grey;}
+
