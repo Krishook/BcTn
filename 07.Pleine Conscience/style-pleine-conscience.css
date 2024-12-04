@@ -1,6 +1,106 @@
 /* commentaire CSS */
 
-body  {
+body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+      color: #4a4a4a;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Times New Roman', serif;
+      font-size: 2.5em;
+      color: #7f5539;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    th, td {
+      padding: 20px;
+      text-align: left;
+      vertical-align: top;
+      position: relative;
+    }
+
+    th {
+      background: linear-gradient(135deg, #c19a6b, #e6ccb2);
+      color: white;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 3px solid #7f5539;
+    }
+
+    td {
+      background: linear-gradient(135deg, #fff, #f9f1e7);
+      border-bottom: 1px solid #e0d2c3;
+      border-right: 1px solid #e0d2c3;
+      font-size: 1.1em;
+    }
+
+    td:last-child {
+      border-right: none;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:nth-child(odd) td {
+      background: linear-gradient(135deg, #f9f5f1, #f0e5d8);
+    }
+
+    tr:hover td {
+      background: linear-gradient(135deg, #f4e8db, #f7f2ea);
+      transition: background 0.3s;
+    }
+
+    .text-container {
+      max-height: 150px;
+      overflow-y: auto;
+      padding-right: 10px;
+      font-style: italic;
+      color: #6d4c41;
+    }
+
+    .text-container::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .text-container::-webkit-scrollbar-thumb {
+      background-color: #c19a6b;
+      border-radius: 4px;
+    }
+
+    .text-container::-webkit-scrollbar-thumb:hover {
+      background-color: #7f5539;
+    }
+
+    caption {
+      font-family: 'Times New Roman', serif;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #7f5539;
+      margin-bottom: 10px;
+    }
+
+
+
+
+
+/* body  {
 	background-color: white;
 	text-align: center;
 }
@@ -90,4 +190,4 @@ a:link {color:grey;}
 a:visited {color:grey;}
 a:hover {color:white;}
 a:active {color:grey;}
-
+*/
