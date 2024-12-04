@@ -67,6 +67,21 @@ body {
       transition: background 0.3s;
     }
 
+    p {
+      max-width: 600px; /* Limite la largeur */
+      margin: 20px auto; /* Centre le paragraphe */
+      text-align: justify; /* Justifie le texte */
+      padding: 15px;
+      background: linear-gradient(135deg, #fdfcfb, #e2d1c3); /* Fond doux */
+      border-left: 4px solid #7f5539; /* Bordure artistique */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+      border-radius: 8px; /* Coins arrondis */
+    }
+
+    p strong {
+      color: #7f5539; /* Met en avant les mots importants */
+    }
+
     .text-container {
       max-height: 150px;
       overflow-y: auto;
