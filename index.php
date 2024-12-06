@@ -6,23 +6,12 @@
         <title>My Web Sites</title>
         <link rel="icon" type="image/x-icon" href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/images/falco.ico">
        	<link rel="stylesheet" href="https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/style.css">
-    
-    </head>
-
-<body>
-
 
 <?php
-$motDePasse = "******";
+$motDePasse = "Poi-987";
 
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '
-    <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulaire de mot de passe</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -75,8 +64,10 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
                 background-color: #0056b3;
             }
         </style>
+
     </head>
-    <body>
+
+<body>
         <div class="form-container">
             <h2>Authentification</h2>
             <form method="POST">
@@ -85,15 +76,11 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
                 <button type="submit">Valider</button>
             </form>
         </div>
-    </body>
-    </html>';
     exit;
 }
 
 // Le mot de passe est correct, continuer l'exécution du script...
 ?>
-
-
 
 
 <!-- <?php
