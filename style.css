@@ -1,5 +1,13 @@
 /* commentaire CSS */
 
+/* Format du formulaire demandant le mot de passe */
+input[type="text"]:focus, input[type="email"]:focus {
+  border-color: #5cb85c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(92, 184, 92, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
 body  {
 	background-color: white;
 	text-align: center;
