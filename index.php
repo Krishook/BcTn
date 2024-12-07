@@ -69,7 +69,7 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
             <h2>Authentification</h2>
             <form method="POST">
                 <label for="password">Password :</label>
-                <input type="password" name="password" id="password" placeholder="Password" required>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
                 <button type="submit">Submit</button>
             </form>
         </div>
