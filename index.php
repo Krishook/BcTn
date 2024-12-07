@@ -10,10 +10,9 @@
     </head>
 
 <body>
-
-<!-- 
+ 
 <?php
-$motDePasse = "******";
+$motDePasse = "Poi-987";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '
           <h2>Authentification</h2>
@@ -25,7 +24,7 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     exit;
 }
 ?>
--->  
+  
 <center>
 
 <!-- Nenu Top Navigation : https://www.w3schools.com/howto/howto_js_topnav.asp -->
