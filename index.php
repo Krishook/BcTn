@@ -78,7 +78,7 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
 }
 
 // Redirection après validation réussie
-header("Location: https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/home.php");
+header("Location: https://my-web-sites-app-fc79c0bb9acc.herokuapp.com/home.html");
 exit;
 ?>
 
