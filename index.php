@@ -12,7 +12,7 @@
 <body>
 
 <!-- <?php
-$motDePasse = "Poi-987";
+$motDePasse = "******";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '
           <h2>Authentification</h2>
