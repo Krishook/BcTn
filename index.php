@@ -11,7 +11,8 @@
 
 <body>
 
-<!-- <?php
+<!-- 
+<?php
 $motDePasse = "******";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '
@@ -23,8 +24,8 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
           </form>';
     exit;
 }
-?> -->
-    
+?>
+-->  
 <center>
 
 <!-- Nenu Top Navigation : https://www.w3schools.com/howto/howto_js_topnav.asp -->
