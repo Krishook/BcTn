@@ -11,7 +11,7 @@
 
 <body>
 
-<?php
+<!-- <?php
 $motDePasse = "Poi-987";
 if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
     echo '
@@ -23,7 +23,7 @@ if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
           </form>';
     exit;
 }
-?>
+?> -->
     
 <center>
 
