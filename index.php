@@ -11,19 +11,7 @@
 
 <body>
  
-<?php
-$motDePasse = "Poi-987";
-if (!isset($_POST['password']) || $_POST['password'] !== $motDePasse) {
-    echo '
-          <h2>Authentification</h2>
-          <form method="POST">
-             <label>Mot de passe : </label>
-             <input type="password" name="password" id="password" placeholder="Votre mot de passe" required>
-             <button type="submit">Valider</button>
-          </form>';
-    exit;
-}
-?>
+
   
 <center>
 
