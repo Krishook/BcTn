@@ -18,7 +18,7 @@
 
 
     table {
-	    	width: 50%; /* Le tableau occupe x% de la largeur disponible */
+	    	width: 60%; /* Le tableau occupe x% de la largeur disponible */
     		max-width: 100%; /* Empêche le dépassement sur des petits écrans */
 	    	border-collapse: collapse; /* Supprime les espaces entre les bordures */
     		margin: 0 auto; /* Centre le tableau */
