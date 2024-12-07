@@ -60,7 +60,7 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
                 cursor: pointer;
             }
             .form-container button:hover {
-                background-color: orange;
+                background-color: tan;
             }
         </style>
     </head>
