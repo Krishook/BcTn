@@ -8,7 +8,7 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulaire de mot de passe</title>
+        <title>Authentification</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -50,7 +50,9 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
             .form-container button {
                 width: 100%;
                 padding: 10px;
-                background-color: #007BFF;
+        //  Couleur bouton
+        //      background-color: #007BFF;
+                background-color: orange;            
                 color: #fff;
                 border: none;
                 border-radius: 4px;
