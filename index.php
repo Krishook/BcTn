@@ -68,9 +68,9 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
         <div class="form-container">
             <h2>Authentification</h2>
             <form method="POST">
-                <label for="password">Mot de passe :</label>
-                <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe" required>
-                <button type="submit">Valider</button>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </body>
