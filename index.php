@@ -8,7 +8,7 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Authentification</title>
+        <title>Authentification page</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
