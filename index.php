@@ -52,7 +52,7 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
                 padding: 10px;
         //  Couleur bouton
         //      background-color: #007BFF;
-                background-color: orange;            
+                background-color: grey;            
                 color: #fff;
                 border: none;
                 border-radius: 4px;
@@ -60,7 +60,7 @@ if (!isset($_POST['password']) || trim($_POST['password']) !== $motDePasse) {
                 cursor: pointer;
             }
             .form-container button:hover {
-                background-color: grey;
+                background-color: orange;
             }
         </style>
     </head>
