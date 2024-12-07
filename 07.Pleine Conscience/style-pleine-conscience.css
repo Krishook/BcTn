@@ -36,7 +36,7 @@
 		text-align: left; /* Aligne le texte à gauche */
 		padding: 10px; /* Ajoute de l'espace dans les cellules */
 		word-wrap: break-word; /* Permet de couper le texte trop long */
-      /* padding: 20px; */
+      padding: 20px;
       /* text-align: left; */
       vertical-align: top;
       position: relative;
