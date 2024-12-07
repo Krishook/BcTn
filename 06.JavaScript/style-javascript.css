@@ -1,0 +1,119 @@
+/* commentaire CSS */
+
+body  {
+	background-color: white;
+}
+
+
+/* Bouton: https://www.w3schools.com/css/css3_buttons.asp */
+
+.button {
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: grey;
+	border: 1px solid grey;
+	border-radius: 8px;
+	font-family:'Courier New', Courier, monospace;
+  }
+  
+  .button:hover {
+	background-color: tan;
+	color: white;
+  }
+
+
+h1    {	
+	color: grey;
+	font-family: arial, sans-serif;
+}
+
+
+h2    {	
+	color: #000000;
+	font-family: arial, sans-serif;
+}
+
+
+p     {
+	color: #A9A9A9;
+	font-family: arial, sans-serif;
+}
+
+
+table {
+	font-family: 'Courier New', Courier, monospace, sans-serif;
+	color:grey;
+	border-collapse: collapse;
+	width: 70%;
+}
+
+
+/* Définit la largeur de la 1ère col. en % (Source : https://itwebtutorials.mga.edu/html/chp8/table-size-and-alignment.aspx - Voir paragraphe "Column Widths") */
+table td#COL1 {
+	width:35%;
+}
+
+
+/* Définit la largeur de la 2ème col. % */
+table td#COL2 {
+	width:40%;
+}
+
+
+/* Définit la largeur de la 3ème col. (et suivante) en % */
+table td#COL3 {
+	width:25%;
+}
+
+
+/* Format des titres du tableau */		
+th    {
+	border: 1px solid #A9A9A9;
+	text-align: left;
+	padding: 5px;
+	background-color: tan;
+	color:white;
+}
+
+
+tr    {
+	border: 1px solid #A9A9A9;
+	text-align: left;
+	padding: 5px;
+}
+
+
+td    {
+	border: 1px solid #A9A9A9;
+	text-align: left;
+	padding: 5px;
+	vertical-align: top;
+}
+
+		
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+
+img   {
+  	border: 1px solid #A9A9A9;
+ 	border-radius: 4px;
+	padding: 5px;
+ 	width: 128px;
+ 	height: auto;
+}
+
+
+a:link {color:grey;}
+a:visited {color:grey;}
+a:hover {color:tan;}
+a:active {color:grey;}
+
